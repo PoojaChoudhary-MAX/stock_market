@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Ye batata hai ki document HTML5 version ka hai -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Character encoding set karta hai (UTF-8 = almost sab languages support) -->
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Browser tab me jo chota icon dikhta hai (favicon) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Responsive design ke liye (mobile pe proper size me show hoga) -->
+
+    <meta name="theme-color" content="#000000" />
+    <!-- Mobile browser ke top bar ka color set karta hai -->
+
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- Website ka short description (SEO ke liye useful) -->
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- iPhone/iPad me app icon ke liye -->
+
+    <!-- manifest.json web app ke install hone par metadata deta hai (PWA feature) -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!-- %PUBLIC_URL% ka matlab:
+         build ke time ye automatically public folder ke path se replace ho jata hai -->
+<!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <!-- Browser tab me jo title dikhega -->
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Agar user ne JavaScript disable kiya hai to ye message dikhega -->
+
+    <div id="root"></div>
+    <!-- YE SABSE IMPORTANT HAI ⚡
+         React app yahi render hota hai (React DOM is div ke andar pura UI inject karta hai) -->
+
+    <!-- Ye HTML ek template hai
+         Direct open karoge to blank page milega
+         Kyunki React JS dynamically content inject karta hai 
+         
+         
+           You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- npm start → development server run karta hai -->
+    <!-- npm run build → production build banata hai -->
+  </body>
+</html>
