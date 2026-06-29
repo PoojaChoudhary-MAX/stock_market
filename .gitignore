@@ -1,0 +1,17 @@
+# Root node modules
+node_modules/
+
+# Sub-project node modules
+backend/node_modules/
+frontend/node_modules/
+dashboard/node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+dashboard/.env
+
+# Build output
+build/
+dist/
